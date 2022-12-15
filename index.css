@@ -4,7 +4,11 @@
 }  
 
 body{
-    background:  hsl(220, 15%, 55%);
+    background:  hsl(220, 15%, 55%); 
+    min-height:100vh; 
+    display:flex; '
+    align-items-center: 
+    justify-content: center;
 } 
 
 #whole{
@@ -17,14 +21,13 @@ body{
 } 
 
 img{
-   border-radius: 12px;
+   border-radius: 12px; 
+   width: 100%;
 }
 
-#identity{   
-    float: left;  
+#identity{    
     padding-right:50px;   
     text-align: center; 
-    margin-left: 35px; 
 } 
 
 h1{
@@ -34,5 +37,6 @@ h1{
 
 p{
     color: hsl(220, 15%, 55%); 
-    font-size: 25px;
+    font-size: 25px; 
+    padding: 5px;
 }
