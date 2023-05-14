@@ -6,37 +6,36 @@
 body{
     background:  hsl(220, 15%, 55%); 
     min-height:100vh; 
-    display:flex; '
-    align-items-center: 
+    display:flex; 
+    align-items:center; 
     justify-content: center;
 } 
 
 #whole{
     background:  hsl(0, 0%, 100%); 
-    float: left; 
-    margin-top: 2%; 
-    margin-left: 25%;  
+    float: left;   
     padding: 2%; 
     border-radius: 12px;
 } 
 
 img{
    border-radius: 12px; 
-   width: 100%;
+   width: 100%; 
+   max-width: 100%;
 }
 
-#identity{    
-    padding-right:50px;   
-    text-align: center; 
+#identity{      
+    text-align: center;  
+    background-color: aqua;
 } 
 
 h1{
     color:  gray hsl(212, 45%, 89%); 
-    font-size: 40px;
+    font-size: 30px;
 }  
 
 p{
     color: hsl(220, 15%, 55%); 
     font-size: 25px; 
-    padding: 5px;
+    padding: 3px;
 }
